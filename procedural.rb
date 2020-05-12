@@ -18,18 +18,18 @@ def display_dog_info(dog)
 end
 
 my_dog_1 = {
-    name: "Cricket",
-    breed: "Golden Retriever Mix",
-    temperment: "Lazy",
-    weight: 55,
+    name: "Toby",
+    breed: "Golden Lab",
+    temperment: "stubborn",
+    weight: 80,
     energy: 100,
     hunger: 100
 }
 
 my_dog_2 = {
-    name: "Griffin",
-    breed: "Carolina Dog",
-    temperment: "Annoying",
+    name: "Lucky",
+    breed: "Chow Mix",
+    temperment: "clever",
     weight: 65,
     energy: 100,
     hunger: 100

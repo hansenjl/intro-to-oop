@@ -1,4 +1,5 @@
 ## OOP Programming
+require 'pry'
 class Dog
 
     def initialize(name, breed, temperement, weight)
@@ -27,12 +28,13 @@ class Dog
         @hunger > 50 ? puts("FEED MEEEEE!!") : puts("Give me treats")
     end
 
+
 end
 
+binding.pry
 
-
-my_dog_1 = Dog.new("Cricket", "Golden Retriever Mix", "Lazy", 55)
-my_dog_2 = Dog.new("Griffin", "Carolina Dog", "Annoying", 65)
+my_dog_1 = Dog.new("Toby", "Golden Lab", "stubborn", 80)
+my_dog_2 = Dog.new("Lucky", "Chow Mix", "clever", 65)
 
 
 my_dog_1.display
